@@ -1,6 +1,6 @@
 {
   "name": "messagepushlib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TotemLi/messagePushLib/issues"
   },
-  "homepage": "https://github.com/TotemLi/messagePushLib#readme"
+  "homepage": "https://github.com/TotemLi/messagePushLib#readme",
+  "dependencies": {
+    "mongoose": "^6.1.5"
+  }
 }

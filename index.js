@@ -1,3 +1,5 @@
+const MessagePush = require('./lib/messagePush');
+
 module.exports = (function(options){
-    return 'ok'
+    return new MessagePush(options);
 })
