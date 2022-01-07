@@ -30,6 +30,8 @@ let msgInfo = {
     type: 'news',
     company_id: '****',
     tousers: ['****'],
+    group_oids: ['****'],   // 收消息部门id，我们的id(是ObjectID)
+    party_ids: [**],    // 收消息部门id，企业微信的id(是数字)
     articles: [
         {
             title: `测试messagePushLib`,
@@ -46,6 +48,8 @@ let msgInfo = {
 //     type: 'text',
 //     company_id: '****',
 //     tousers: ['****'],
+//     group_oids: ['****'],   // 收消息部门id，我们的id(是ObjectID)
+//     party_ids: [**],    // 收消息部门id，企业微信的id(是数字)
 //     content: '这是文本内容',
 //     agentid: '****',
 //     app_id: '****'
@@ -56,6 +60,8 @@ let msgInfo = {
 //     type: 'textcard',
 //     company_id: '****',
 //     tousers: ['****'],
+//     group_oids: ['****'],   // 收消息部门id，我们的id(是ObjectID)
+//     party_ids: [**],    // 收消息部门id，企业微信的id(是数字)
 //     textcard: {
 //         description: '这是描述',
 //         btntxt: "这是按钮",
