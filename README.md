@@ -40,7 +40,8 @@ let msgInfo = {
         }
     ],
     agentid: '****',
-    app_id: '****'
+    app_id: '****',
+    detail_id: '****',  // 可选，推送给mos平台时所需要的数据id
 }
 
 // // text 类型
@@ -52,7 +53,8 @@ let msgInfo = {
 //     party_ids: [**],    // 收消息部门id，企业微信的id(是数字)
 //     content: '这是文本内容',
 //     agentid: '****',
-//     app_id: '****'
+//     app_id: '****',
+//     detail_id: '****',  // 可选，推送给mos平台时所需要的数据id
 // }
 
 // // textcard 类型
@@ -69,7 +71,8 @@ let msgInfo = {
 //         title: "这是标题"
 //     },
 //     agentid: '****',
-//     app_id: '****'
+//     app_id: '****',
+//     detail_id: '****',  // 可选，推送给mos平台时所需要的数据id
 // }
 
 let result = await messagePushClient.sender(msgInfo);
